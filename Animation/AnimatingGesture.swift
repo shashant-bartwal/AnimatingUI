@@ -1,0 +1,35 @@
+//
+//  AnimatingGesture.swift
+//  Animation
+//
+//  Created by shashant on 13/06/21.
+//
+
+import SwiftUI
+
+struct AnimatingGesture: View {
+    
+    @State private var dragAmount = CGSize.zero
+    
+    var body: some View {
+        LinearGradient(gradient: Gradient(colors: [.yellow,.red]), startPoint: .topLeading, endPoint: .bottomTrailing)
+            .frame(width: 300, height: 200)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .offset(dragAmount)
+            .gesture(
+                DragGesture()
+                    .onChanged {
+                        self.dragAmount = $0.translation
+                    }
+                    .onEnded({ (val) in
+                        self.dragAmount = .zero
+                    }))
+            .animation(.spring())
+        }
+}
+
+struct AnimatingGesture_Previews: PreviewProvider {
+    static var previews: some View {
+        AnimatingGesture()
+    }
+}
