@@ -19,6 +19,8 @@
 		50B61AFC2675D8A8007F4DA7 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B61AFB2675D8A8007F4DA7 /* ImplicitAnimation.swift */; };
 		50B61AFF2675E26F007F4DA7 /* AnimatingBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B61AFE2675E26F007F4DA7 /* AnimatingBinding.swift */; };
 		50B61B032675E6C4007F4DA7 /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B61B022675E6C4007F4DA7 /* ExplicitAnimation.swift */; };
+		50F7E852267686940088587B /* ShowAndHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7E851267686940088587B /* ShowAndHidden.swift */; };
+		50F7E8552676A1EF0088587B /* SpinCircleLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7E8542676A1EF0088587B /* SpinCircleLoad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		50B61AFB2675D8A8007F4DA7 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
 		50B61AFE2675E26F007F4DA7 /* AnimatingBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBinding.swift; sourceTree = "<group>"; };
 		50B61B022675E6C4007F4DA7 /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		50F7E851267686940088587B /* ShowAndHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAndHidden.swift; sourceTree = "<group>"; };
+		50F7E8542676A1EF0088587B /* SpinCircleLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinCircleLoad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +80,11 @@
 				503EDF0126760513008E08A8 /* AnimationStack.swift */,
 				503EDF0426760A77008E08A8 /* AnimatingGesture.swift */,
 				503EDF0726761070008E08A8 /* FloatingLetters.swift */,
+				50F7E851267686940088587B /* ShowAndHidden.swift */,
 				50B61AEA2675D80B007F4DA7 /* ContentView.swift */,
 				50B61AEC2675D80C007F4DA7 /* Assets.xcassets */,
 				50B61AF12675D80C007F4DA7 /* LaunchScreen.storyboard */,
+				50F7E8542676A1EF0088587B /* SpinCircleLoad.swift */,
 				50B61AF42675D80C007F4DA7 /* Info.plist */,
 				50B61AEE2675D80C007F4DA7 /* Preview Content */,
 			);
@@ -170,7 +176,9 @@
 				50B61AE92675D80B007F4DA7 /* SceneDelegate.swift in Sources */,
 				503EDF0826761070008E08A8 /* FloatingLetters.swift in Sources */,
 				503EDF0226760513008E08A8 /* AnimationStack.swift in Sources */,
+				50F7E8552676A1EF0088587B /* SpinCircleLoad.swift in Sources */,
 				50B61AEB2675D80B007F4DA7 /* ContentView.swift in Sources */,
+				50F7E852267686940088587B /* ShowAndHidden.swift in Sources */,
 				50B61AFF2675E26F007F4DA7 /* AnimatingBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
